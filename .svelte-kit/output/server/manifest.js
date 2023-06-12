@@ -4,7 +4,7 @@ export const manifest = {
 	assets: new Set(["favicon.png","robots.txt"]),
 	mimeTypes: {".png":"image/png",".txt":"text/plain"},
 	_: {
-		entry: {"file":"_app/immutable/start-ba98281f.js","imports":["_app/immutable/start-ba98281f.js","_app/immutable/chunks/index-9b4b4e1c.js","_app/immutable/chunks/singletons-fa4097a9.js","_app/immutable/chunks/index-776f5eed.js","_app/immutable/chunks/parse-bee59afc.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.fa14f559.js","app":"_app/immutable/entry/app.47a4554a.js","imports":["_app/immutable/entry/start.fa14f559.js","_app/immutable/chunks/index.fb970b68.js","_app/immutable/chunks/singletons.4ee6c544.js","_app/immutable/chunks/index.562a36d8.js","_app/immutable/chunks/parse.bee59afc.js","_app/immutable/entry/app.47a4554a.js","_app/immutable/chunks/index.fb970b68.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),
@@ -15,7 +15,7 @@ export const manifest = {
 				id: "/sverdle",
 				pattern: /^\/sverdle\/?$/,
 				params: [],
-				page: { layouts: [0], errors: [1], leaf: 2 },
+				page: { layouts: [0,], errors: [1,], leaf: 2 },
 				endpoint: null
 			}
 		],
